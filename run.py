@@ -1,12 +1,12 @@
 import sys
-import test1
+import hbgx_2
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     mainwindow = QMainWindow()
-    ui = test1.Ui_MainWindow()
+    ui = hbgx_2.Ui_MainWindow()
     ui.setupUi(mainwindow)
     mainwindow.show()
 
